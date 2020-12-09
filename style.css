@@ -11,7 +11,7 @@ body{
     width: 1440px;
     color: #ccc;
     position: relative;
-    /* background-color: #181824; */
+     background-color: #181824; 
 }
 
 h1{
@@ -42,6 +42,7 @@ input{
     color: #25273C;
     border: 1px solid  #181824;
     margin-bottom: 30px;
+    box-shadow: 2px 2px 2px #181824; 
 }
 
 .box-main {
@@ -49,4 +50,36 @@ input{
     top:50%;
     left:32%;
     width: 50%;
+}
+
+.box-lst {
+    padding: 0.6rem;
+    width:65%;
+    background-color: #25273C;
+    color:#ccc;
+    border: 1px solid  #25273C;
+    box-shadow: 2px 2px 2px #25273C;
+    margin-bottom: 2px;
+    z-index: 1000;
+}
+
+.box {
+    list-style: none;
+}
+
+.icon-svg {
+    border: 1px solid #9E83FA;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #9E83FA;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right:15px;
+}
+span{
+    float: right;
+    cursor: pointer;
+}
+span img{
+    height: 10px;
 }
