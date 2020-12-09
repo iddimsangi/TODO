@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    width: 1440px;
+    color: #ccc;
+    background-color: #181824;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    position: absolute;
+    top: 29%;
+    left: 31%;
+}
+header{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background:url(images/bg-desktop-dark.jpg);
+    background-position: center;
+    background-size: cover;
+    height:300px; 
+}
+.sun-svg {
+    position: absolute;
+    top: 29%;
+    right: 35%;
+}
