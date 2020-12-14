@@ -36,13 +36,13 @@ header{
     right: 35%;
 }
 input{
-    padding: 0.6rem;
+    padding:1rem;
     width:65%;
-    background-color: #181824; 
+    background-color: #25273C;
     color: #25273C;
-    border: 1px solid  #181824;
-    margin-bottom: 30px;
-    box-shadow: 2px 2px 2px #181824; 
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+    
 }
 
 .box-main {
@@ -53,7 +53,7 @@ input{
 }
 
 .box-lst {
-    padding: 0.6rem;
+    padding: 1rem;
     width:65%;
     background-color: #25273C;
     color:#ccc;
@@ -66,20 +66,30 @@ input{
 .box {
     list-style: none;
 }
-
-.icon-svg {
-    border: 1px solid #9E83FA;
-    border-radius: 50%;
-    padding: 3px;
-    background-color: #9E83FA;
+button{
+    border: 1px solid #8f77e8;
+    width: 19px;
+    height: 19px;
     vertical-align: middle;
+    border-radius: 100%;
     cursor: pointer;
-    margin-right:15px;
+    background-color: #9E85FE;
+    text-align: center;
 }
+.btn-lst{
+   background-color:transparent; 
+}
+
+
 span{
     float: right;
     cursor: pointer;
 }
-span img{
-    height: 10px;
+
+.btn-lst-inpt {
+    position: absolute;
+    left:2%;
+    top:4%;
+    margin-right: 10px;
+    background-color: transparent;
 }
